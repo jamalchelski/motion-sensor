@@ -1,14 +1,14 @@
 ///////////////////////Code Created by///////////////////////
 //////////////////////Moch Nur Jamalludin//////////////////////
 
-int Pir = 6;     // output of Pir sensor
-int led_red = 4; // led pin
-int led_yellow = 2;
-const int buzzer = 3; // buzzer pin
-int val = 0;
-int mag = 12;
+int Pir = 6;           // output of Pir sensor
+int led_red = 4;       // led pin
+int led_yellow = 2;    //led pin
+const int buzzer = 3;  // buzzer pin
+int val = 0;           // value default
+int mag = 12;          // magnetic sensor port
 const int wait = 5000; // delay waktu untuk buzzer setelah pintu terbuka
-bool timer = false;
+bool timer = false;    // default sensor magnetic
 
 void setup()
 {
